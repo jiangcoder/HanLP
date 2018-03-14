@@ -24,7 +24,7 @@ public class DemoIndexSegment
 {
     public static void main(String[] args)
     {
-        List<Term> termList = IndexTokenizer.segment("主副食品");
+        List<Term> termList = IndexTokenizer.segment("1.55");
         for (Term term : termList)
         {
             System.out.println(term + " [" + term.offset + ":" + (term.offset + term.word.length()) + "]");
